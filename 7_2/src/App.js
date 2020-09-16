@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 
 class App extends React.Component {
   constructor(props) {
@@ -13,15 +12,15 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="">
         <button onClick={this.toggleDiv}>show/hide</button>
-        {this.state.show && <Box/>}
+        {this.state.show && <Box />}
       </div>
     );
   }
 }
 
-class Box extends React.Component{
+class Box extends Component() {
   render() {
     return (
       <div className="box"></div>

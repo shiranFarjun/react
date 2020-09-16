@@ -1,18 +1,14 @@
 import React from 'react';
-import MakeButton from './button';
-import './Btn.css';
-
+import Box from './Box';
 
 class App extends React.Component {
-  render(){
-    return  (
-      <div className="container">
-        <MakeButton 
-        text='Important'
-        text='Not Important'/>
+  render() {
+    return (
+      <div className="continer">
+        <Box />
       </div>
     );
-  } 
+  }
 }
 
 export default App;
