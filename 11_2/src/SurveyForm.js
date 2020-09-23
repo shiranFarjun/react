@@ -12,8 +12,7 @@ class SurveyForm extends React.Component {
   handleChange = (event) => {
     const value = event.target.value;
     const name = event.target.name;
-    this.setState((prevState) => ({
-      // ...prevState,
+    this.setState(() => ({
       [name]: value,
     }));
   };

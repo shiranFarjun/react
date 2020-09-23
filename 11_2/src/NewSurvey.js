@@ -24,7 +24,7 @@ class NewSurvey extends React.Component {
             this.setState({
               showFormReview: false
             })}
-          formValues={this.state.formValues}  //למה יש צורך בשורה הזאת
+          formValues={this.state.formValues}  
         />
       );
     } else {

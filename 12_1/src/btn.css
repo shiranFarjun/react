@@ -1,0 +1,31 @@
+.container {
+  height: 700px;
+  width: 800px;
+  margin: auto;
+}
+
+.container h1 {
+  text-align: center;
+  color: rgb(231, 158, 61);
+}
+
+.continerBtn {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.continerBtn button {
+  background-color: rgb(245, 248, 53);
+  border-radius: 20px;
+  width: 20%;
+  margin: 20px;
+}
+
+
+.displayJoke {
+  text-align: center;
+  font-size: 32px;
+  color: rgb(231, 158, 61);
+  margin: auto;
+}
